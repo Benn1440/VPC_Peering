@@ -32,4 +32,6 @@ You need to configure the CIDR and specify.
 # Further Reference on VPC Peering
 https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html
 
+It is important that when we have multiple VPCs, then VPC peering would not be an appropriate use case in this instance, but we can achieve peering with #TRANSIT GATEWAY
+
 
