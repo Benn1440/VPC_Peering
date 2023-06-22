@@ -29,4 +29,7 @@ You need to configure the CIDR and specify.
 
 ![Success ping btw Instances](https://github.com/Benn1440/VPC_Peering/assets/67696393/63ca31ed-fc0a-46ff-89a4-d4834aed0d41)
 
+# Further Reference on VPC Peering
+https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html
+
 
