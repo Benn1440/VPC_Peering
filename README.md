@@ -36,32 +36,32 @@ It is important that when we have multiple VPCs, then VPC peering would not be a
 
 # Break down of steps taken.
 
-CIDR Marketing 10.10.0.0/16
-Requester Marketing VPC
+ * CIDR Marketing 10.10.0.0/16
+   Requester Marketing VPC
 
-CIDR Finance 172.31.0.0/16
-Accepter Finance VPC
+ * CIDR Finance 172.31.0.0/16
+   Accepter Finance VPC
 
-CIDR Developer 192.168.0.0/20
+ * CIDR Developer 192.168.0.0/20
 
-Private ipv4 of Finance 
+ * Private ipv4 of Finance 
 
-Click Subnet ID of Marketing 
+ * Click Subnet ID of Marketing 
 
-Click Route Table
+ * Click Route Table
 
-Click Route
+ * Click Route
 
-VPC peering 
+ * VPC peering 
 
-Marketing EC2 >> SubnetID >> Route table 
+ * Marketing EC2 >> SubnetID >> Route table 
 
-Add finaance CIDR TO Marketing >> mArkrting to Finance
+ * Add finaance CIDR TO Marketing >> mArkrting to Finance
 
-Try connecting
+   Try connecting
 
-Finance server >> Security Group
+ * Finance server >> Security Group
 
-Inbound Rules >> Custom ICMP >>  Add Marketing CIDR.
+ * Inbound Rules >> Custom ICMP >>  Add Marketing CIDR.
 
 
