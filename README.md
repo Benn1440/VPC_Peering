@@ -34,4 +34,34 @@ https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html
 
 It is important that when we have multiple VPCs, then VPC peering would not be an appropriate use case in this instance, but we can achieve peering with #TRANSIT GATEWAY
 
+# Break down of steps taken.
+
+CIDR Marketing 10.10.0.0/16
+Requester Marketing VPC
+
+CIDR Finance 172.31.0.0/16
+Accepter Finance VPC
+
+CIDR Developer 192.168.0.0/20
+
+Private ipv4 of Finance 
+
+Click Subnet ID of Marketing 
+
+Click Route Table
+
+Click Route
+
+VPC peering 
+
+Marketing EC2 >> SubnetID >> Route table 
+
+Add finaance CIDR TO Marketing >> mArkrting to Finance
+
+Try connecting
+
+Finance server >> Security Group
+
+Inbound Rules >> Custom ICMP >>  Add Marketing CIDR.
+
 
